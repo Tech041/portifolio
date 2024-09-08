@@ -22,12 +22,12 @@ const Head = () => {
               </span>
             </h1>
             <h1 className="text-xl  font-semibold">
-              I am a front end web developer
+              I am a Front End Web Developer
             </h1>
           </div>
           <div className="text-green-600 py-2">
             <Link href="/about" className="border-2 border-gray-500 py-1 px-2">
-              Know more
+              MY CV
             </Link>
           </div>
         </div>
@@ -40,13 +40,14 @@ const Head = () => {
           <div className="flex justify-between flex-col md:flex-row   ">
             <div className="img flex-1 w-full    md:w-auto flex justify-center items-center py-4 md:py-0">
               <Image
-                width={150}
-                height={50}
+                width={144}
+                height={144}
                 src="/image/profile.jpg"
                 alt="image"
+                className="h-36 w-36 rounded-full"
               />
             </div>
-            <div className="text flex-1">
+            <div className=" flex-1">
               <h1 className=" md:pt-5 ">
                 My name is Chinwuba Nelson Chikamso, and I am a dedicated
                 <br />
@@ -142,6 +143,55 @@ const Head = () => {
                 alt="project-image"
                 className="w-[100%] h-full"
               />
+            </div>
+          </div>
+          <div className="container py-5">
+            <div className="wrapper-1 flex flex-col md:flex-row  justify-between gap-5 items-center">
+              <div className="flex-1">
+                {" "}
+                <div className="text-wrapper">
+                  <h2 className="text-xl font-semibold py-2 text-accent-500 ">
+                    School Admin Dashboard
+                  </h2>
+                  <p>
+                    I developed this school admin dashboard website using
+                    next.js and tailwind css to
+                    <br />
+                    demonstrate responsive design and integration of third party
+                    UI libraries . It is responsive to different
+                    <br />
+                    screen sizes ranging from small to extra large.
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  {" "}
+                  <div className="text-green-600 py-2">
+                    <Link
+                      href="https://neltechmanagementsystem.vercel.app/"
+                      className="border-2 border-gray-500 py-1 px-2"
+                    >
+                      View live
+                    </Link>
+                  </div>
+                  <div className="text-green-600 py-2">
+                    <Link
+                      href="https://github.com/Tech041/neldev.git"
+                      className="border-2 border-gray-500 py-1 px-2"
+                    >
+                      Source code
+                    </Link>{" "}
+                  </div>
+                </div>
+              </div>
+              <div className="img-wrapper flex-1 w-full">
+                <Image
+                  width={300}
+                  height={100}
+                  src="/image/dashboard.png"
+                  alt="project-image"
+                  className="w-[100%] h-full"
+                />
+              </div>
             </div>
           </div>
         </div>
