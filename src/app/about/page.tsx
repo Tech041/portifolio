@@ -47,7 +47,7 @@ const About = () => {
           <div className="flex justify-center gap-4 items-center py-2 flex-wrap ">
             <span className="flex-1">Technologies:</span>
             <span className="flex-1">
-              Html,Css,Js,ReactT.Js,PHP,Wordpress,Mysql
+              Html,Css,Js,React.Js,PHP,Wordpress,Mysql
             </span>
           </div>
           <hr className="border-4 border-green-100" />
@@ -58,7 +58,7 @@ const About = () => {
           <div className="flex justify-center gap-4 items-center py-2">
             <span className=" flex-1">Technologies:</span>
             <span className="flex-1 ">
-              Html,Css,Tailwind Css, Js,Ts,,ReactT.Js,Next.Js
+              Html,Css,Tailwind Css, Js,Ts,,React.Js,Next.Js
             </span>
           </div>
           <hr className="border-4 border-green-100" />
