@@ -19,12 +19,12 @@ const About = () => {
             Qualifications
           </h1>
           <div className="flex justify-center gap-4 items-center py-2">
-            <span className="flex-1">Primary Education:</span>
+            <span className="flex-1">Primary Education(2001-2007):</span>
             <span className="flex-1">First School Leaving Certificate</span>
           </div>
           <hr className=" border-2 border-green-100" />
           <div className="flex justify-center gap-4 items-center py-2">
-            <span className=" flex-1">Secondary Education:</span>
+            <span className=" flex-1">Secondary Education(2007-2013):</span>
             <span className="flex-1">
               West African Senior School Certificate(WAEC)
             </span>
@@ -32,7 +32,7 @@ const About = () => {
           <hr className=" border-2 border-green-100" />
 
           <div className="flex justify-center gap-4 items-center">
-            <span className="flex-1">Tertiary Education:</span>
+            <span className="flex-1">Tertiary Education(2015-2021):</span>
             <span className="flex-1">Bachelor of Pharmacy(1st Class)</span>
           </div>
         </div>
@@ -41,7 +41,9 @@ const About = () => {
             Other Qualifications
           </h1>
           <div className="flex justify-center gap-4 items-center py-2">
-            <span className="flex-1">Klicks Institute of ICT Studies:</span>
+            <span className="flex-1">
+              Klicks Institute of ICT Studies(2023-2024):
+            </span>
             <span className="flex-1">Full Stack Web Development</span>
           </div>
           <div className="flex justify-center gap-4 items-center py-2 flex-wrap ">
@@ -52,7 +54,7 @@ const About = () => {
           </div>
           <hr className="border-4 border-green-100" />
           <div className="flex justify-center gap-4 items-center py-2">
-            <span className=" flex-1">Coding War Bootcamp:</span>
+            <span className=" flex-1">Coding War Bootcamp(2023-2024):</span>
             <span className="flex-1 ">Front End Web Development</span>
           </div>
           <div className="flex justify-center gap-4 items-center py-2">
@@ -66,11 +68,11 @@ const About = () => {
         <h1 className="flex-1 py-4 text-2xl font-bold">Job Experience:</h1>
 
         <div className="flex justify-center items-center gap-4">
-          <span className="flex-1">Klicks Institute Of ICT Studies:</span>
+          <span className="flex-1">Klicks Institute Of ICT Studies(2024):</span>
           <span className="flex-1">As Front End Web Development Coach</span>
         </div>
         <div className="flex justify-center items-center gap-4 my-3">
-          <span className="flex-1">Neltechnologies Bootcamp:</span>
+          <span className="flex-1">Neltechnologies Bootcamp(2024):</span>
           <span className="flex-1">
             As CEO and Coach in Front End Web Deveopment
           </span>

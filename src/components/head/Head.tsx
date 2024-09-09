@@ -48,7 +48,7 @@ const Head = () => {
               />
             </div>
             <div className=" flex-1">
-              <h1 className=" md:pt-5 ">
+              <h1 className=" md:pt-5  font-semibold">
                 My name is Chinwuba Nelson Chikamso, and I am a dedicated
                 <br />
                 pharmacist and a passionate front-end web developer. With
@@ -100,6 +100,8 @@ const Head = () => {
           <h1 className="text-center text-xxl font-semibold my-10 text-green-600">
             PROJECTS
           </h1>
+        </div>
+        <div className="container">
           <div className="wrapper-1 flex flex-col md:flex-row  justify-between gap-5 items-center">
             <div className="flex-1">
               {" "}
@@ -125,14 +127,14 @@ const Head = () => {
                     View live
                   </Link>
                 </div>
-                <div className="text-green-600 py-2">
+                {/* <div className="text-green-600 py-2">
                   <Link
                     href="https://github.com/Tech041/my-app.git"
                     className="border-2 border-gray-500 py-1 px-2"
                   >
                     Source code
                   </Link>{" "}
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="img-wrapper flex-1 w-full">
@@ -145,56 +147,57 @@ const Head = () => {
               />
             </div>
           </div>
-          <div className="container py-5">
-            <div className="wrapper-1 flex flex-col md:flex-row  justify-between gap-5 items-center">
-              <div className="flex-1">
+        </div>
+        <div className="container py-5">
+          <div className="wrapper-1 flex flex-col md:flex-row  justify-between gap-5 items-center">
+            <div className="flex-1">
+              {" "}
+              <div className="text-wrapper">
+                <h2 className="text-xl font-semibold py-2 text-accent-500 ">
+                  School Admin Dashboard
+                </h2>
+                <p>
+                  I developed this school admin dashboard website using next.js
+                  and tailwind css to
+                  <br />
+                  demonstrate responsive design and integration of third party
+                  UI libraries . It is responsive to different
+                  <br />
+                  screen sizes ranging from small to extra large.
+                </p>
+              </div>
+              <div className="flex gap-2">
                 {" "}
-                <div className="text-wrapper">
-                  <h2 className="text-xl font-semibold py-2 text-accent-500 ">
-                    School Admin Dashboard
-                  </h2>
-                  <p>
-                    I developed this school admin dashboard website using
-                    next.js and tailwind css to
-                    <br />
-                    demonstrate responsive design and integration of third party
-                    UI libraries . It is responsive to different
-                    <br />
-                    screen sizes ranging from small to extra large.
-                  </p>
+                <div className="text-green-600 py-2">
+                  <Link
+                    href="https://neltechmanagementsystem.vercel.app/"
+                    className="border-2 border-gray-500 py-1 px-2"
+                  >
+                    View live
+                  </Link>
                 </div>
-                <div className="flex gap-2">
-                  {" "}
-                  <div className="text-green-600 py-2">
-                    <Link
-                      href="https://neltechmanagementsystem.vercel.app/"
-                      className="border-2 border-gray-500 py-1 px-2"
-                    >
-                      View live
-                    </Link>
-                  </div>
-                  <div className="text-green-600 py-2">
+                {/* <div className="text-green-600 py-2">
                     <Link
                       href="https://github.com/Tech041/neldev.git"
                       className="border-2 border-gray-500 py-1 px-2"
                     >
                       Source code
                     </Link>{" "}
-                  </div>
-                </div>
+                  </div> */}
               </div>
-              <div className="img-wrapper flex-1 w-full">
-                <Image
-                  width={300}
-                  height={100}
-                  src="/image/dashboard.png"
-                  alt="project-image"
-                  className="w-[100%] h-full"
-                />
-              </div>
+            </div>
+            <div className="img-wrapper flex-1 w-full">
+              <Image
+                width={300}
+                height={100}
+                src="/image/dashboard.png"
+                alt="project-image"
+                className="w-[100%] h-full"
+              />
             </div>
           </div>
         </div>
+
         <div className="container py-5">
           <div className="wrapper-2 flex flex-col md:flex-row  justify-between gap-5 items-center">
             <div className="flex-1">
@@ -220,14 +223,14 @@ const Head = () => {
                     View live
                   </Link>
                 </div>
-                <div className="text-green-600 py-2">
+                {/* <div className="text-green-600 py-2">
                   <Link
                     href="https://github.com/Tech041/todo.git"
                     className="border-2 border-gray-500 py-1 px-2"
                   >
                     Source code
                   </Link>{" "}
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="img-wrapper flex-1 w-full">
@@ -267,14 +270,14 @@ const Head = () => {
                     View live
                   </Link>
                 </div>
-                <div className="text-green-600 py-2">
+                {/* <div className="text-green-600 py-2">
                   <Link
                     href="https://github.com/Tech041/yosapp.git"
                     className="border-2 border-gray-500 py-1 px-2"
                   >
                     Source code
                   </Link>{" "}
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="img-wrapper flex-1 w-full">
