@@ -10,11 +10,14 @@ const iconsStyles =
   "w-[40px] h-[40px] rounded-[50px] flex justify-center items-center cursor-pointer hover:bg-green-600";
 
 const Head = () => {
+  const date = new Date();
+  const day = date.toLocaleTimeString();
   return (
     <main>
-      <section className=" h-[200px] pt-10 md:pt-5 w-full">
+      <section className=" h-[250px] pt-10 md:pt-5 w-full">
         <div className="container head-region w-full">
           <div>
+            <div className="text-lg font-semibold my-2 py-1">Time: {day}</div>
             <h1 className="text-2xl font-bold">
               Hi!,my name is
               <span className="text-green-600 px-1">
@@ -25,7 +28,7 @@ const Head = () => {
               I am a Front End Web Developer
             </h1>
           </div>
-          <div className="text-green-600 py-2">
+          <div className="text-green-600 py-3">
             <Link href="/about" className="border-2 border-gray-500 py-1 px-2">
               MY CV
             </Link>
@@ -44,7 +47,7 @@ const Head = () => {
                 height={144}
                 src="/image/profile.jpg"
                 alt="image"
-                className="h-36 w-36 rounded-full"
+                className="h-36 w-36 rounded-full ring-2 ring-green-500 shadow-lg"
               />
             </div>
             <div className=" flex-1">
