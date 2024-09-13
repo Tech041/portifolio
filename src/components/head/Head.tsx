@@ -5,6 +5,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { GrTwitter } from "react-icons/gr";
 import { FaSquareInstagram } from "react-icons/fa6";
+import Icons from "../icons/Icons";
 
 const iconsStyles =
   "w-[40px] h-[40px] rounded-[50px] flex justify-center items-center cursor-pointer hover:bg-green-600";
@@ -25,15 +26,26 @@ const Head = () => {
               I am a Front End Web Developer
             </h1>
           </div>
-          <div className="text-green-600 pt-3 mt-2">
-            <h1 className=" py-1 my-1">MY CV</h1>
-            <Link
-              href="/TechCV.pdf"
-              download="nelsoncv.pdf"
-              className="border-2 border-gray-500 py-1 px-2"
-            >
-              Download PDF
-            </Link>
+          <div className="text-green-600 pt-3 mt-2 flex items-center justify-between  ">
+            <div className="">
+              <h1 className=" py-1 my-1">MY CV</h1>
+              <Link
+                href="/TechCV.pdf"
+                download="nelsoncv.pdf"
+                className="border-2 border-gray-500 py-1 px-2"
+              >
+                Download PDF
+              </Link>
+            </div>
+            <div className="cert">
+              <h1 className="text-xl my-1">Certifications</h1>
+              <Link
+                href="/KlickCert.pdf"
+                className="border-2 border-gray-500  px-2"
+              >
+                View PDF
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -56,10 +68,10 @@ const Head = () => {
               <h1 className=" md:pt-5  font-semibold text-xl">
                 Pharmacist and Web developer...
               </h1>
-              <div className=" py-2">
+              <div className=" text-center md:text-start py-2">
                 <Link
                   href="/about"
-                  className="text-green-800 bg-white py-1 px-1 rounded-md hover:bg-green-300"
+                  className="text-green-800 bg-white py-1 px-1 rounded-md hover:bg-green-300 "
                 >
                   Read more
                 </Link>
@@ -68,35 +80,7 @@ const Head = () => {
                 Email: chinwubanelson@gmail.com
               </p>
               <p className="py-2 text-white font-semibold">Tel:08030507512</p>
-              <div className="flex gap-5 justify-start items-center py-1">
-                <div className="flex gap-1 justify-center items-center py-4">
-                  <div className={iconsStyles}>
-                    <Link href="https://web.facebook.com/mandela.nelson.18062">
-                      <FaFacebookF size={25} color="white" />
-                    </Link>
-                  </div>
-                  <div className={iconsStyles}>
-                    <Link href="https://x.com/lorenz_Scot">
-                      <GrTwitter size={25} color="white" />
-                    </Link>
-                  </div>
-                  <div className={iconsStyles}>
-                    <Link href="https://www.instagram.com/voyage_wears/">
-                      <FaSquareInstagram size={25} color="white" />
-                    </Link>
-                  </div>
-                  <div className={iconsStyles}>
-                    <Link href="https:www.linkedin.com/in/chinwuba-nelson-838206238">
-                      <FaLinkedinIn size={25} color="white" />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="https://wa.link/kfy3gw">
-                      <BsWhatsapp size={25} color="green" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
+              <Icons />
             </div>
           </div>
         </div>
@@ -127,6 +111,7 @@ const Head = () => {
                 {" "}
                 <div className="text-green-600 py-2">
                   <Link
+                    target="_blank"
                     href="https://mikegym.vercel.app"
                     className="border-2 border-gray-500 py-1 px-2"
                   >
@@ -154,6 +139,7 @@ const Head = () => {
             </div>
           </div>
         </div>
+
         <div className="container py-5">
           <div className="wrapper-1 flex flex-col md:flex-row  justify-between gap-5 items-center">
             <div className="flex-1">
@@ -176,6 +162,7 @@ const Head = () => {
                 {" "}
                 <div className="text-green-600 py-2">
                   <Link
+                    target="_blank"
                     href="https://neltechmanagementsystem.vercel.app/"
                     className="border-2 border-gray-500 py-1 px-2"
                   >
@@ -204,6 +191,56 @@ const Head = () => {
           </div>
         </div>
 
+        <div className="container">
+          <div className="wrapper-1 flex flex-col md:flex-row  justify-between gap-5 items-center">
+            <div className="flex-1">
+              {" "}
+              <div className="text-wrapper">
+                <h2 className="text-xl font-semibold py-2 text-accent-500 ">
+                  Solar Installation Company
+                </h2>
+                <p>
+                  I developed this solar installation website using next.js and
+                  tailwind css to
+                  <br />
+                  demonstrate responsive design. It is responsive to different
+                  <br />
+                  screen sizes ranging from small to extra large.
+                </p>
+              </div>
+              <div className="flex gap-2">
+                {" "}
+                <div className="text-green-600 py-2">
+                  <Link
+                    target="_blank"
+                    href="https://kartasunenergysolutions.vercel.app/"
+                    className="border-2 border-gray-500 py-1 px-2"
+                  >
+                    View live
+                  </Link>
+                </div>
+                {/* <div className="text-green-600 py-2">
+                  <Link
+                    href="https://github.com/Tech041/kartasun.git"
+                    className="border-2 border-gray-500 py-1 px-2"
+                  >
+                    Source code
+                  </Link>{" "}
+                </div> */}
+              </div>
+            </div>
+            <div className="img-wrapper flex-1 w-full">
+              <Image
+                width={300}
+                height={100}
+                src="/image/kartasun.png"
+                alt="project-image"
+                className="w-[100%] h-full"
+              />
+            </div>
+          </div>
+        </div>
+
         <div className="container py-5">
           <div className="wrapper-2 flex flex-col md:flex-row  justify-between gap-5 items-center">
             <div className="flex-1">
@@ -223,6 +260,7 @@ const Head = () => {
                 {" "}
                 <div className="text-green-600 py-2">
                   <Link
+                    target="_blank"
                     href="https://todo-list-nu-peach.vercel.app/"
                     className="border-2 border-gray-500 py-1 px-2"
                   >
@@ -250,6 +288,7 @@ const Head = () => {
             </div>
           </div>
         </div>
+
         <div className="container">
           <div className="wrapper-2 flex flex-col md:flex-row  justify-between gap-5 items-center">
             <div className="flex-1">
@@ -270,6 +309,7 @@ const Head = () => {
                 {" "}
                 <div className="text-green-600 py-2">
                   <Link
+                    target="_blank"
                     href="https://github-profile-finder-eta.vercel.app/"
                     className="border-2 border-gray-500 py-1 px-2"
                   >
