@@ -12,7 +12,7 @@ const iconsStyles =
 const Head = () => {
   return (
     <main>
-      <section className=" h-[200px] pt-10 md:pt-5 w-full">
+      <section className=" h-[250px] pt-10 md:pt-5 w-full">
         <div className="container head-region w-full">
           <div>
             <h1 className="text-2xl font-bold">
@@ -26,17 +26,22 @@ const Head = () => {
             </h1>
           </div>
           <div className="text-green-600 pt-3 mt-2">
-            <Link href="/about" className="border-2 border-gray-500 py-1 px-2">
-              MY CV
+            <h1 className=" py-1 my-1">MY CV</h1>
+            <Link
+              href="/TechCV.pdf"
+              download="nelsoncv.pdf"
+              className="border-2 border-gray-500 py-1 px-2"
+            >
+              Download PDF
             </Link>
           </div>
         </div>
       </section>
       <section className="  bg-accent-400 md:h-[600px] flex justify-center items-center h-screen w-full">
         <div className="wrapper container  w-full py-10">
-          <h1 className="text-center text-green-600 font-bold text-xl py-4 ">
+          {/* <h1 className="text-center text-green-600 font-bold text-xl py-4 ">
             ABOUT ME
-          </h1>
+          </h1> */}
           <div className="flex justify-between flex-col md:flex-row   ">
             <div className="img flex-1 w-full    md:w-auto flex justify-center items-center py-4 md:py-0">
               <Image
@@ -48,16 +53,17 @@ const Head = () => {
               />
             </div>
             <div className=" flex-1">
-              <h1 className=" md:pt-5  font-semibold">
-                My name is Chinwuba Nelson Chikamso, and I am a dedicated
-                <br />
-                pharmacist and a passionate front-end web developer. With
-                <br />
-                a strong background in healthcare and a keen eye for
-                <br />
-                design, I enjoy creating functional and visually
-                <br /> appealing web applications.
+              <h1 className=" md:pt-5  font-semibold text-xl">
+                Pharmacist and Web developer...
               </h1>
+              <div className=" py-2">
+                <Link
+                  href="/about"
+                  className="text-green-800 bg-white py-1 px-1 rounded-md hover:bg-green-300"
+                >
+                  Read more
+                </Link>
+              </div>
               <p className="py-2 text-white font-semibold">
                 Email: chinwubanelson@gmail.com
               </p>
