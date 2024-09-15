@@ -288,55 +288,6 @@ const Head = () => {
             </div>
           </div>
         </div>
-
-        <div className="container">
-          <div className="wrapper-2 flex flex-col md:flex-row  justify-between gap-5 items-center">
-            <div className="flex-1">
-              {" "}
-              <div className="text-wrapper">
-                <h2 className="text-xl font-semibold py-2  text-accent-500">
-                  Github profile finder
-                </h2>
-                <p>
-                  I developed this github profile finder using next.js and
-                  tailwind css to <br />
-                  demonstrate responsive design, use of hooks and integration of
-                  api <br />
-                  and api calls.
-                </p>
-              </div>
-              <div className="flex gap-2">
-                {" "}
-                <div className="text-green-600 py-2">
-                  <Link
-                    target="_blank"
-                    href="https://github-profile-finder-eta.vercel.app/"
-                    className="border-2 border-gray-500 py-1 px-2"
-                  >
-                    View live
-                  </Link>
-                </div>
-                {/* <div className="text-green-600 py-2">
-                  <Link
-                    href="https://github.com/Tech041/yosapp.git"
-                    className="border-2 border-gray-500 py-1 px-2"
-                  >
-                    Source code
-                  </Link>{" "}
-                </div> */}
-              </div>
-            </div>
-            <div className="img-wrapper flex-1 w-full">
-              <Image
-                width={300}
-                height={100}
-                src="/image/gitfinder.png"
-                alt="project-image"
-                className="w-[100%] h-full"
-              />
-            </div>
-          </div>
-        </div>
       </section>
     </main>
   );
