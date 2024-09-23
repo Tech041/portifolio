@@ -49,7 +49,7 @@ const Head = () => {
           </div>
         </div>
       </section>
-      <section className="  bg-accent-400 md:h-[600px] flex justify-center items-center h-screen w-full">
+      <section className="  bg-green-700 md:h-[600px] flex justify-center items-center h-screen w-full">
         <div className="wrapper container  w-full py-10">
           {/* <h1 className="text-center text-green-600 font-bold text-xl py-4 ">
             ABOUT ME
@@ -61,7 +61,7 @@ const Head = () => {
                 height={144}
                 src="/image/profile.jpg"
                 alt="image"
-                className="h-36 w-36 rounded-full ring-2 ring-green-500 shadow-lg"
+                className="h-36 w-36 rounded-full ring-2 ring-accent-500 shadow-lg object-cover"
               />
             </div>
             <div className=" flex-1">
@@ -71,7 +71,7 @@ const Head = () => {
               <div className=" text-center md:text-start py-2">
                 <Link
                   href="/about"
-                  className="text-green-800 bg-white py-1 px-1 rounded-md hover:bg-green-300 "
+                  className="text-green-800 bg-white py-1 px-1 rounded-md hover:bg-accent-300 "
                 >
                   Read more
                 </Link>

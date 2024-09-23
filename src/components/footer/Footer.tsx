@@ -10,7 +10,7 @@ const iconsStyles =
 
 const Footer = () => {
   return (
-    <section className="bg-accent-500 py-10">
+    <section className="bg-green-800 py-10">
       <div className="container">
         <h5 className="text-center text-[16px] text-white">
           &copy; All rights reserved.Chinwuba Nelson Chikamso

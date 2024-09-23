@@ -40,7 +40,7 @@ const Icons = () => {
         </div>
         <div>
           <Link target="_blank" href="https://wa.link/kfy3gw">
-            <BsWhatsapp size={25} color="green" />
+            <BsWhatsapp size={25} color="white" />
           </Link>
         </div>
       </div>
