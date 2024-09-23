@@ -28,22 +28,17 @@ const Head = () => {
           </div>
           <div className="text-green-600 pt-3 mt-2 flex items-center justify-between  ">
             <div className="">
-              <h1 className=" py-1 my-1">MY CV</h1>
               <Link
                 href="/TechCV.pdf"
                 download="nelsoncv.pdf"
-                className="border-2 border-gray-500 py-1 px-2"
+                className=" py-1 px-2"
               >
-                Download PDF
+                MY CV
               </Link>
             </div>
             <div className="cert">
-              <h1 className="text-xl my-1">Certifications</h1>
-              <Link
-                href="/KlickCert.pdf"
-                className="border-2 border-gray-500  px-2"
-              >
-                View PDF
+              <Link href="/KlickCert.pdf" className="uppercase  px-2">
+                Certificate
               </Link>
             </div>
           </div>
